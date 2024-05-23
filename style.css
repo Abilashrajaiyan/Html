@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+.maindiv{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photodiv{
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 290%;
+}
+.images{
+    height: 100%;
+    width: 25%;
+}
+.button{
+    height: 10%;
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(249, 243, 243);
+    color: #000000;
+}
